@@ -25,7 +25,7 @@ class Test_geral:
         # Criar módulo
         teste.clicar('//*[@id="app"]/div[1]/div/main/div[2]/div[1]/button')
         teste.inserir_texto('//*[@id="app"]/div[1]/div/main/div[2]/div/div[2]/div/form/div/div[1]/div/input',
-                            'Tests_Jorge_1_aut')
+                            'Teste_Jorge_1_aut')
         teste.clicar('//*[@id="mui-component-select-grade_id"]')
         teste.clicar('//*[@id="menu-grade_id"]/div[3]/ul/li[1]')
         teste.inserir_texto('//*[@id="app"]/div[1]/div/main/div[2]/div/div[2]/div/form/div/div[3]/div/textarea',
@@ -37,7 +37,7 @@ class Test_geral:
         teste.clicar('//*[@id="app"]/div[1]/div/main/div[2]/div/div[2]/div/form/div/div[2]/button[2]')
 
         # Buscar módulo
-        teste.inserir_texto('//*[@id="app"]/div[1]/div/header/div/div/div[1]/div/div/input', 'Tests_Jorge_1_aut')
+        teste.inserir_texto('//*[@id="app"]/div[1]/div/header/div/div/div[1]/div/div/input', 'Teste_Jorge_1_aut')
         teste.clicar('//*[@id="app"]/div[1]/div/header/div/div/div[1]/div/button')
 
         # Validação final
